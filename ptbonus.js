@@ -52,9 +52,9 @@ function getPubTime(row, idx, torId) {
 		$.ajax({
 			url: "details.php?id=" + torId + "&hit=1",
 			success: function(result) {
-				var markTag = $(result).find('#bookmark0');
+				var markTag = $(result).find('.rowfollow').first();
 				if (markTag.length > 0) {
-					var torTime = markTag.next().next().attr("title");
+					var torTime = markTag.find('span').last().attr("title");
 					var tObj = TOR_DATA.find((item) => item.id == torId);
 					if (tObj) {
 						tObj.time = torTime;
