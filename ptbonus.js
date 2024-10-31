@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PT魔力计算器
-// @namespace    https://github.com/jinhill/pt-bonus-calc
+// @namespace    https://github.com/Ercsion/pt-bonus-calc
 // @version      2.1.0
 // @description  NexusPHP架构的PT站种子魔力值和当前做种魔力值计算器
 // @author       Jinhill
